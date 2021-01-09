@@ -5,6 +5,7 @@ pipeline{
             steps{
                 sh 'pwd'
                 sh 'echo "hello world"'
+		sh 'echo "Second try... "'
             }
         }
 
