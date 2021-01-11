@@ -1,12 +1,6 @@
 pipeline {
-    agent {
-        docker { image 'node:7-alpine' }
+    dockerfile{
+        label 'jenkins-build:v1'
     }
-    stages {
-        stage('Test') {
-            steps {
-                sh 'node --version'
-            }
-        }
-    }
+
 }
