@@ -67,3 +67,11 @@ the token must same as the token filled in Jenkins pipeline setting.
 ![](https://i.imgur.com/IjPVzI8.png)
 
 While pushing code to gitea server will trigger Jenkins pipeline, remenber to put Jenkinsfile in the root of repo, or you can define its location in Jenkins pipeline configuration.
+
+## Roadmap
+1. learn to build Jenkins server...success
+2. Jenkins server to test code, build docker images...success
+3. connect Jenkins server to github
+3. Known how to use Jenkins agent(Kubernetes, docker)
+4. Several defination to define workflow(pipeline, free-style), the syntex about Jenkinsfile.
+5. Jenkins Job Builder(JJB), Global JJB  usage, to implement Infrasructure as Code.
