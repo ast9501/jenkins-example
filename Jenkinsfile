@@ -1,9 +1,9 @@
 pipeline{
-    agent { dockerfile true }
+    agent any
     stages {
-       stage('Finished'){
+       stage('build'){
            steps{
-               sh 'echo "Build finished..."'
+               sh 'docker build -t jenkins-demo:v1 .'
            } 
        }
     }
