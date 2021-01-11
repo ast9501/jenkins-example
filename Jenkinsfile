@@ -1,10 +1,10 @@
-pipeline {
-    dockerfile{
-        label 'jenkins-build:v1'
-    }
-    stages{
-        stage('echo'){
-	    step 'sh "pwd"'
-        } 
+pipeline{
+    agent any
+    stages {
+       stage('build'){
+           steps{
+               sh 'docker build -t jenkins-demo:v1 .'
+           } 
+       }
     }
 }
