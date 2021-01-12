@@ -68,6 +68,9 @@ the token must same as the token filled in Jenkins pipeline setting.
 
 While pushing code to gitea server will trigger Jenkins pipeline, remenber to put Jenkinsfile in the root of repo, or you can define its location in Jenkins pipeline configuration.
 
+## Related study
+1. [Several example about Jenkinsfile pipeline script](https://oranwind.org/-devops-jenkins-yu-centos-ubuntu-an-zhuang-jiao-xue/)
+
 ## Roadmap
 1. learn to build Jenkins server...success
 2. Jenkins server to test code, build docker images...success
