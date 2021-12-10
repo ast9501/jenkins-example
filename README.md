@@ -1,6 +1,4 @@
-# Jenkins-demo
-
-Jenkins token: 6d6f51cce565a450952a2798a7d9e34fc26e9f1
+# Jenkins-example
 
 ## Running Jenkins in Docker
 for running Jenkins to build docker images, the Jenkins container should:
